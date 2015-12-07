@@ -10,6 +10,8 @@ h1 {
   li {
     display: inline;
    }	
+   
+   ul.square {list-style-type: square;}
 
 div {
     width: 1300px;
