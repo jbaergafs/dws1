@@ -1,20 +1,15 @@
-
-
 body {
     background-color:  #b3e6ff;
 }
 
-	
-h2 {
-	color: #F56B0D
-	}
-h3 {
-	color: #F56B0D
-	}
-p {
-	color: lightblack
-	}
-		
+
+h1 {
+    color: #F56B0D
+    }
+    
+  li {
+    display: inline;
+   }	
 
 div {
     width: 1300px;
@@ -29,6 +24,11 @@ div {
     border: 2px solid navy;
     margin: 2px;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
 
 <style>
 a:link    {color:green; background-color:transparent; text-decoration:none}
@@ -36,5 +36,3 @@ a:visited {color:#00aaff; background-color:transparent; text-decoration:none}
 a:hover   {color:#ff4d4d; background-color:transparent; text-decoration:underline}
 a:active  {color:purple; background-color:transparent; text-decoration:underline}
 </style>
-
-
