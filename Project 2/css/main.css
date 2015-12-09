@@ -1,0 +1,99 @@
+
+
+body {
+    background-color: #e5f7ff;
+}
+
+h1 {
+    color: #F56B0D
+    }
+	
+h2 {
+	color: #F56B0D
+	}
+h3 {
+	color: #F56B0D
+	}
+p {
+	color: lightblack
+	}
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+		
+
+div {
+    width: 1300px;
+    margin: auto;
+    border: 1px 1;
+    opacity: 0.8;
+}
+
+div {
+    width: 1300px;
+    padding: 2px;
+    border: 2px solid navy;
+    margin: 2px;
+}
+
+div {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+  li {
+    display: inline;
+   }	
+
+
+ol {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li { 
+    padding-left: 16px; 
+}
+
+li:before {
+    content: "•"; 
+    padding-right: 8px;
+    color: blue; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li { 
+    padding-left: 16px; 
+}
+
+li:before {
+    content: "•"; 
+    padding-right: 8px;
+    color: blue; 
+}
+
+ul.circle {list-style-type: circle;}
+
+<style>
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:#00aaff; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff4d4d; background-color:transparent; text-decoration:underline}
+a:active  {color:purple; background-color:transparent; text-decoration:underline}
+</style>
+
+
