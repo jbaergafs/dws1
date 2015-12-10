@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(https://github.com/jbaergafs/dws1/blob/gh-pages/images/Surf%20Background.jpg?raw=true);
+    background-color: #289FD2;
 }
 
 h1 {
@@ -43,7 +43,7 @@ div {
     padding: 25px;
     border: 25px solid navy;
     margin: 25px;
-    background: #ffffff;
+    background: #DCE6EA ;
 }
 
 div {
