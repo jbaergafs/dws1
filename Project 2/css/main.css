@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #e5f7ff;
+    background-color: #289FD2;
 }
 
 h1 {
@@ -32,17 +32,18 @@ p.thick {
 		
 
 div {
-    width: 1300px;
+    width: 1150px;
     margin: auto;
     border: 1px 1;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 div {
-    width: 1300px;
-    padding: 2px;
-    border: 2px solid navy;
-    margin: 2px;
+    width: 1150px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    background: #DCE6EA ;
 }
 
 div {
