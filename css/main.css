@@ -32,11 +32,9 @@ p.thick {
 		
 
 div {
-    border-style: Line;
-    border-width: 1150px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: lightblue;
+    width: 1050px;
+    margin: auto;
+    border: 1px 1;
     opacity: 0.8;
 }
 
