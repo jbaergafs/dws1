@@ -73,7 +73,7 @@ li:before {
 }
 
 ul {
-    list-style: none; 
+    list-style-image: https://github.com/jbaergafs/dws1/blob/gh-pages/images/surfer.png?raw=true; 
     padding: 0;
     margin: 0;
 }
@@ -88,7 +88,7 @@ li:before {
     color: blue; 
 }
 
-ul.circle {list-style-type: circle;}
+
 
 <style>
 a:link    {color:green; background-color:transparent; text-decoration:none}
