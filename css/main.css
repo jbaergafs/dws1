@@ -4,29 +4,18 @@ body {
     background-color: #289FD2;
 }
 
-h1 {
+h1,h2,h3,h4 {
     color: #F56B0D
+    
+    
     }
 	
-h2 {
-	color: #F56B0D
-	}
-h3 {
-	color: #F56B0D
-	}
 p {
 	color: lightblack
-	}
-p {
-    font-family: "Times New Roman", Times, serif;
-}
-
-p.normal {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: normal;
-}
-
-p.thick {
-    font-weight: bold;
+    font-variant: normal;
+    
 }
 
 		
