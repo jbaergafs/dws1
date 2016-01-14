@@ -8,19 +8,20 @@ div#container {
 	background-color: #efefef;
 	padding: 10px;
     }
-Headings
-
+/**Headings**/
+h1{
 	color: #ee3e80
-
-Paragraphs
-	
+   }
+/**Paragraphs**/
+p{	
 	color: #665544
-	
-Strong element
-
+  }	
+/**Strong element**/
+p strong{
 	color: green;
+   }
 
-
-Em elements
-
+/**Em elements**/
+p em{
 	color: violet;
+    }
