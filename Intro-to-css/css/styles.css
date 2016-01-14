@@ -1,13 +1,13 @@
-Children of the body element 
-
+/**Children of the body element **/ 
+body{
 	font-family: Arial, Verdana, sans-serif;
-	
-Id of "container"
-
+	}
+/**Id of "container"**/
+div#container {
 	border: 1px solid #665544;
 	background-color: #efefef;
 	padding: 10px;
-
+    }
 Headings
 
 	color: #ee3e80
