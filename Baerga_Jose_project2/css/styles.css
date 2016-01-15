@@ -1,0 +1,30 @@
+/** This si the styles.css file for skateboard sport index page**/
+
+
+/** Body Style **/
+
+body {
+      font-family: Arial, Verdana, sans-serif;
+      background-color: rgb(214, 151, 37);
+      padding: 20px;
+     }
+.index{
+      border: 5px solid #665544;
+      background-color: rgba(220, 218, 221, 0.7);
+      padding: inherit;
+     } 
+     
+/** h1 and h2   style **/     
+     
+h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    }     
+         
+h1, h2 {
+        color: #A61726;
+       } 
+         
+            
+     
+     
