@@ -30,6 +30,22 @@ h2 {
 h1, h2 {
         color: #A61726;
        } 
+       
+/** P styles **/
+
+p  strong {
+           color: green;  
+           } 
+p em { 
+      color: pink;
+     }
+     
+ /** id styles **/
+ 
+p .sources {
+           color: #004056;
+          }     
+                     
          
             
      
