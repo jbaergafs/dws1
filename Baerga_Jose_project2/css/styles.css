@@ -6,20 +6,27 @@
 body {
       font-family: Arial, Verdana, sans-serif;
       background-color: rgb(39, 35, 36);
-      padding: 20px;
+      padding: 40px;
       font-size: 16px;
      }
+     
 .index{
       border: 5px solid #665544;
       background-color: rgba(220, 218, 221, 0.7);
+      border: 5px solid #73603D;
       padding: inherit;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
      } 
      
 /** h1 and h2   style **/     
      
 h1 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 300%;
+     font-family: 'Shadows Into Light', cursive;
+     font-size: 300%;
+     Background-color: rgba(54, 57, 66, 0.5);
+     text-align: center;
     } 
     
 h2 {
@@ -34,19 +41,34 @@ h1, h2 {
 /** P styles **/
 
 p  strong {
-           color: green;  
+           color: #FF358B;  
            } 
 p em { 
-      color: pink;
+      color: #EFECCA;
      }
      
  /** id styles **/
  
-p .sources {
-           color: #004056;
+ /** source link design **/
+
+ #sources {
+           background-color: #FFF0A5;
+           padding:10px
           }     
-                     
-         
+ #sources {
+           text-align: left;
+           }                    
+
+/** top menu style **/           
+ 
+    .main-nav {
+               display: inline;
+               margin-right: 40px;
+              }
+   .main-nav {
+              text-align: center;
+             } 
+ 
             
      
      
