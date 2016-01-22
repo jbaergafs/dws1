@@ -16,8 +16,8 @@ body {
       border: 5px solid #73603D;
       padding: inherit;
       border-radius: 10px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
+      -moz-border-radius: -5px -5px #777777;
+      -webkit-border-radius: -5px -5px #777777;
      } 
      
 /** h1 and h2   style **/     
@@ -27,10 +27,18 @@ h1 {
      font-size: 5em;
      Background-color: rgba(54, 57, 66, 0.5);
      text-align: center;
-     text-shadow:5px 2px 2px #666666:
+     text-shadow:2px 2px 3px #666666:
+     padding-bottom: 10px
      width: 150px
      margin: 10px auto 25px auto;
     } 
+    
+h1 {
+	-moz-box-shadow: -5px -5px #777777;
+	-webkit-box-shadow: -5px -5px #777777;
+	box-shadow: -5px -5px #777777;
+	}
+	
     
 h2 {
     font-family: 'Shadows Into Light', cursive;
@@ -45,7 +53,7 @@ h1, h2 {
 /** P styles **/
 
 strong {
-	color: #E74C3C;  
+	color: #DE3473;  
 	} 
 em { 
 	color: #ECF0F1;
@@ -57,6 +65,12 @@ em {
 p {
 	line-height: 1.4em;
 	}
+p:first-letter {
+	fintsize: 2.0em;
+	}
+p:first-line {
+	font-weight: bold;
+	}	
 
 .sources {
 	background-color: #3498DB;
