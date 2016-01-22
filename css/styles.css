@@ -7,10 +7,10 @@ body {
       font-family: Arial, Verdana, sans-serif;
       background-color: rgb(39, 35, 36);
       padding: 40px;
-      font-size: 16px;
+      font-size: 1.0em;
      }
      
-.index{
+#index{
       border: 5px solid #665544;
       background-color: rgba(220, 218, 221, 0.7);
       border: 5px solid #73603D;
@@ -24,50 +24,72 @@ body {
      
 h1 {
      font-family: 'Shadows Into Light', cursive;
-     font-size: 300%;
+     font-size: 5em;
      Background-color: rgba(54, 57, 66, 0.5);
      text-align: center;
+     text-shadow:5px 2px 2px #666666:
     } 
     
 h2 {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-shadow:2px 2px 3px #666666:
     }      
          
 h1, h2 {
-        color: #A61726;
-       } 
+	color: #A61726;
+	} 
        
 /** P styles **/
 
-p  strong {
-           color: #FF358B;  
-           } 
-p em { 
-      color: #EFECCA;
-     }
-     
- /** id styles **/
+strong {
+	color: #FF358B;  
+	} 
+em { 
+	color: #EFECCA;
+	}
+/** id styles **/
  
- /** source link design **/
+/** source link design **/
 
- #sources {
-           background-color: #FFF0A5;
-           padding:10px
-          }     
- #sources {
-           text-align: left;
-           }                    
+.sources {
+	background-color: #FFF0A5;
+	padding:10px
+	}     
+.sources {
+	text-align: left;
+	}                    
 
 /** top menu style **/           
- 
-    .main-nav {
-               display: inline;
-               margin-right: 40px;
-              }
-   .main-nav {
-              text-align: center;
-             } 
+.main-nav {
+	display: inline;
+	margin-right: 40px;
+	}
+.main-nav {
+	text-align: center;
+	
+	} 
+/** a element style **/	
+a:link {
+	text-decoration: none;
+	color: #FF8598;
+	}
+	
+a:visited {
+	color: #7D8A2E;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	}             
+             
+a:active {
+	color: #FFC0A9;
+	}
+	
+	
+	             
  
             
      
