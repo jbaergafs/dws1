@@ -28,6 +28,8 @@ h1 {
      Background-color: rgba(54, 57, 66, 0.5);
      text-align: center;
      text-shadow:5px 2px 2px #666666:
+     width: 150px
+     margin: 10px auto 25px auto;
     } 
     
 h2 {
@@ -63,20 +65,28 @@ em {
 /** top menu style **/           
 .main-nav {
 	display: inline;
-	margin-right: 40px;
+	margin: 0px 30px;
 	}
-.main-nav {
-	text-align: center;
+
+	
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1p solid #000;
+	text-align:center;
+	}
 	
 	} 
 /** a element style **/	
 a:link {
 	text-decoration: none;
-	color: #FF8598;
+	color: #7D8A2E;
 	}
 	
 a:visited {
-	color: #7D8A2E;
+	color: #FF8598;
 	}
 	
 a:hover {
