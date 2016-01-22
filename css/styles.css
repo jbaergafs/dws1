@@ -45,17 +45,21 @@ h1, h2 {
 /** P styles **/
 
 strong {
-	color: #FF358B;  
+	color: #E74C3C;  
 	} 
 em { 
-	color: #EFECCA;
+	color: #ECF0F1;
 	}
 /** id styles **/
  
 /** source link design **/
 
+p {
+	line-height: 1.4em;
+	}
+
 .sources {
-	background-color: #FFF0A5;
+	background-color: #3498DB;
 	padding:10px
 	}     
 .sources {
@@ -97,7 +101,13 @@ a:hover {
 a:active {
 	color: #FFB03B;
 	}
-	
+
+
+/** footer design **/
+
+footer {
+	text-align: center;
+	}
 	
 	             
  
