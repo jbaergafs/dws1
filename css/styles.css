@@ -82,20 +82,20 @@ ul {
 /** a element style **/	
 a:link {
 	text-decoration: none;
-	color: #7D8A2E;
+	color: #FFFBF6;
 	}
 	
 a:visited {
-	color: #FF8598;
+	color: #BF0007;
 	}
 	
 a:hover {
 	text-decoration: underline;
-	color: #FFFFFF;
+	color: #400002;
 	}             
              
 a:active {
-	color: #FFC0A9;
+	color: #FFB03B;
 	}
 	
 	
