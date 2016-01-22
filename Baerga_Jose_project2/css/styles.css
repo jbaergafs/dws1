@@ -7,67 +7,126 @@ body {
       font-family: Arial, Verdana, sans-serif;
       background-color: rgb(39, 35, 36);
       padding: 40px;
-      font-size: 16px;
+      font-size: 1.0em;
      }
      
-.index{
+#index{
       border: 5px solid #665544;
       background-color: rgba(220, 218, 221, 0.7);
       border: 5px solid #73603D;
       padding: inherit;
       border-radius: 10px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
+      -moz-border-radius: -5px -5px #777777;
+      -webkit-border-radius: -5px -5px #777777;
      } 
      
 /** h1 and h2   style **/     
      
 h1 {
      font-family: 'Shadows Into Light', cursive;
-     font-size: 300%;
+     font-size: 5em;
      Background-color: rgba(54, 57, 66, 0.5);
      text-align: center;
+     text-shadow:2px 2px 3px #666666:
+     padding-bottom: 10px
+     width: 150px
+     margin: 10px auto 25px auto;
     } 
+    
+h1 {
+	-moz-box-shadow: -5px -5px #777777;
+	-webkit-box-shadow: -5px -5px #777777;
+	box-shadow: -5px -5px #777777;
+	}
+	
     
 h2 {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-shadow:2px 2px 3px #666666:
     }      
          
 h1, h2 {
-        color: #A61726;
-       } 
+	color: #A61726;
+	} 
        
 /** P styles **/
 
-p  strong {
-           color: #FF358B;  
-           } 
-p em { 
-      color: #EFECCA;
-     }
-     
- /** id styles **/
+strong {
+	color: #DE3473;  
+	} 
+em { 
+	color: #ECF0F1;
+	}
+/** id styles **/
  
- /** source link design **/
+/** source link design **/
 
- #sources {
-           background-color: #FFF0A5;
-           padding:10px
-          }     
- #sources {
-           text-align: left;
-           }                    
+p {
+	line-height: 1.4em;
+	}
+p:first-letter {
+	fintsize: 2.0em;
+	}
+p:first-line {
+	font-weight: bold;
+	}	
+
+.sources {
+	background-color: #3498DB;
+	padding:10px
+	}     
+.sources {
+	text-align: left;
+	}                    
 
 /** top menu style **/           
- 
-    .main-nav {
-               display: inline;
-               margin-right: 40px;
-              }
-   .main-nav {
-              text-align: center;
-             } 
+.main-nav {
+	display: inline;
+	margin: 0px 30px;
+	}
+
+	
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1p solid #000;
+	text-align:center;
+	}
+	
+	} 
+/** a element style **/	
+a:link {
+	text-decoration: none;
+	color: #FFFBF6;
+	}
+	
+a:visited {
+	color: #BF0007;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	color: #400002;
+	}             
+             
+a:active {
+	color: #FFB03B;
+	}
+
+
+/** footer design **/
+
+footer {
+	text-align: center;
+	}
+	
+/** images style **/
+
+
+	             
  
             
      
