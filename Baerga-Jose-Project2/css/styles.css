@@ -21,12 +21,13 @@ body {
 /** Main Nav **/
 .main-nav {
 	 display: inline;
-	 margin: 20px 30px;
+	 margin: 20px;
 	  }	
 ul {
 	width: 570px;
 	padding: 15px;
 	margin: 0px auto;
+	font-size: 1.5em;
 	text-align: center;
 	 }	 		    
 
@@ -53,7 +54,7 @@ h2 {
 	font-size: 1.5em;
 	font-weight: normal;
 	font-style: normal;
-	word-spacing: 1em;
+	word-spacing: .5em;
 	}
 p {
 	font-family: Arial, Verdana, sans-serif;
@@ -91,7 +92,11 @@ a:active {
 	margin: 10px;
 	padding:10px;
 	text-align: left;
-	}                   
+	}    
+	
+/** image style **/
+
+               
 	
 
 	
