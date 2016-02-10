@@ -19,7 +19,10 @@ body {
      } 
      
 /** Main Nav **/
-
+#main-nav {
+	  display: inline;
+	  margin: 0px 30px;
+	  }	  
 
 /*** Text Style ***/
 
