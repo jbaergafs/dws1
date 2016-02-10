@@ -7,11 +7,11 @@ body {
       background-color: rgb(54, 57, 66);
       padding: 40px;
       margin: 10px auto;
-      font-size: 1.0em;
+      font-size: 1em;
      }
 	
 #index{
-      background-color: rgba(216, 202, 168, 0.9);
+      background-color: rgba(255, 255, 255, 0.8);
       border: 1px solid #665544;
       padding: 20px;
       border-radius: 20px;
@@ -19,16 +19,23 @@ body {
      } 
      
 /** Main Nav **/
-#main-nav {
-	  display: inline;
-	  margin: 0px 30px;
-	  }	  
+.main-nav {
+	 display: inline;
+	 margin: 20px 30px;
+	  }	
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto;
+	text-align: center;
+	 }	
+	    
 
 /*** Text Style ***/
 
 h1 {
 	font-family: 'Poiret One', cursive;
-	font-weight: 10em;
+	font-weight: 5em;
 	color: #5C832F;
 	text-align: center;
 	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
@@ -39,6 +46,22 @@ h2 {
 	font-weight: 2em;
 	color: #5C832F;
 	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
+	}
+	
+#intro p {
+	font-family: Arial, Verdana, sans-serif;
+	color: #01A2A6;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 1em;
+	}
+p {
+	font-family: Arial, Verdana, sans-serif;
+	color: #2F2933;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
 	}
 	
 
