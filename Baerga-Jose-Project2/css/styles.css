@@ -5,7 +5,7 @@
 body {
       font-family: Arial, Verdana, sans-serif;
       background-color: rgb(54, 57, 66);
-      padding: 20px;
+      padding: 40px;
       margin: 10px auto;
       font-size: 1.0em;
      }
@@ -13,16 +13,19 @@ body {
 #index{
       background-color: rgba(216, 202, 168, 0.9);
       border: 1px solid #665544;
-      padding: 10px;
+      padding: 20px;
       border-radius: 20px;
       box-shadow: -5px 5px 15px 7px #000;
      } 
+     
+/** Main Nav **/
+
 
 /*** Text Style ***/
 
 h1 {
 	font-family: 'Poiret One', cursive;
-	font-weight: 100em;
+	font-weight: 10em;
 	color: #5C832F;
 	text-align: center;
 	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
