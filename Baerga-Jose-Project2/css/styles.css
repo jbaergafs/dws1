@@ -97,7 +97,23 @@ a:active {
 /** image style **/
 
                
+#gallery a:link {
+	text-decoration: none;
+	color: #EC7263;
+	}
 	
+#gallery a:visited {
+	color: #57385C;
+	}
+	
+#gallery a:hover {
+	text-decoration: underline;
+	color: #FEBE7E;
+	}             
+             
+#gallery a:active {
+	color: #FFEDBC;
+	}
 
 	
 
