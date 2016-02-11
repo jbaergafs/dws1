@@ -76,12 +76,16 @@ a:visited {
 	}
 	
 a:hover {
-	text-decoration: underline;
-	color: #FEBE7E;
+	text-decoration: none;
+	color: deeppink;
 	}             
              
 a:active {
 	color: #FFEDBC;
+	}
+	
+ol{
+	list-style-type: upper-alpha;
 	}
 
 /** sources  **/
@@ -95,27 +99,30 @@ a:active {
 	}    
 	
 /** image style **/
-
-               
-#gallery a:link {
-	text-decoration: none;
-	color: #EC7263;
-	}
 	
-#gallery a:visited {
-	color: #57385C;
+#gallery a {
+	border: 2px solid deeppink;
+	width: 300px;
+	height: 200px;
+	display: block;
 	}
 	
 #gallery a:hover {
-	text-decoration: underline;
-	color: #FEBE7E;
-	}             
-             
-#gallery a:active {
-	color: #FFEDBC;
+	border: 2px solid #000;
 	}
+	 
+/*** footer style ***/
 
+footer  {
+	color: deeppink;
+	width: 100px;
+	height: 40px;
+	margin: 10px auto;
+	font-size: .5em;
+	text-align: center;
+	}
 	
+ 
 
-	
+
 
