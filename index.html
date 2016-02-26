@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
     	<title>BMX Sport</title>
     	<link href="css/styles.css" rel="stylesheet">
+    	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css' />
     	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>	     
 	</head>
 	<body>
@@ -97,13 +98,46 @@
 			
 				<p>This is best 5 <strong>BMX Riders</strong> today:</p>
 			
-				<ol>
-					<li><a href="http://www.redbull.com/us/en/bike/athletes/1331574854082/garrett-reynolds">Garret Reynolds</a></li>
-					<li><a href="http://www.federalbikes.com/team/pro-team/stevie-churchill/">Stevie Churchill</a></li>
-					<li><a href="http://bmx.transworld.net/features/bike-check-aaron-ross/#r2mO8w2ygQHxWkcC.97">Arron Ross</a></li>
-					<li><a href="http://www.monsterarmy.com/members/harrymain/">Harry Main</a></li>
-					<li><a href="http://rockstarenergy.com/actionsports/bmx/tom-dugan-1">Tom Dugan</a></li>
-				</ol>
+			<div class="tg-wrap">
+				<table class="tg" style=undefined>
+				<col style="width: 133px">
+				<col style="width: 211px">
+				<col style="width: 249px">
+			</colgroup>
+  			<tr>
+    			<th class="tg-nkf9">Best Riders</th>
+    			<th class="tg-calz">Riders Bio</th>
+    			<th class="tg-calz">Sources</th>
+  			</tr>
+  			<tr>
+    			<td class="tg-quxf">Garret Reynolds</td>
+    			<td class="tg-quxf"><a href="http://www.redbull.com/us/en/bike/athletes/1331574854082/garrett-reynolds">Garret Reynolds</a></td>
+   			 	<td class="tg-quxf"><a href="http://www.redbull.com">Red Bull</a></td>
+  			</tr>
+  			<tr>
+    			<td class="tg-baqh">Stevie Chruchhill</td>
+    			<td class="tg-baqh"><a href="http://www.federalbikes.com/team/pro-team/stevie-churchill/">Stevie Churchill</a></td>
+    			<td class="tg-baqh"><a href="http://www.federalbikes.com">Federalbikes.com</a></td>
+  			</tr>
+  			<tr>
+    			<td class="tg-quxf">Arron Ross</td>
+    			<td class="tg-quxf"><a href="http://bmx.transworld.net/features/bike-check-aaron-ross/#r2mO8w2ygQHxWkcC.97">Arron Ross</a></td>
+    			<td class="tg-quxf"><a href="http://bmx.transworld.net">bmx.transworld.net</a></td>
+  			</tr>
+  			<tr>
+    			<td class="tg-baqh">Harry Main</td>
+    			<td class="tg-baqh"><a href="http://www.monsterarmy.com/members/harrymain/">Harry Main</a></td>
+    			<td class="tg-baqh"><a href="http://www.monsterarmy.com">MosterArmy.com</a></td>
+  			</tr>
+  			<tr>
+    			<td class="tg-quxf">Tom Dugan</td>
+    			<td class="tg-quxf"><a href="http://rockstarenergy.com/actionsports/bmx/tom-dugan-1">Tom Dugan</a></td>
+    			<td class="tg-quxf"><a href="http://rockstarenergy.com">rockstarteneregy.com</a></td>
+  			</tr>
+		</table>
+		</div>
+	
+   
 				
 				<h2 id="rider-res"> Resources of this informations and gallery photos bring by: </h2>
 				
@@ -157,10 +191,35 @@
 		
 		<!-- footer --> 
 		<footer>		
-			<a href="mailto:jbaerga@fullsail.edu">Contact us by email</a>
-			
-			<p>Created by Jose Baerga Studen of Full Sail University</p>
-		</footer>
+		<form action="#">
+  
+        <fieldset id="user-details">  
+  
+           	 	<label for="name">Name:</label>
+     			<input type="text" name="name" value="Name" />
+  
+    			 <label for="email">Email:</label>
+    			 <input type="email" name="email" value="text"  />
+  
+     			<label for="phone">Phone:</label>
+     			<input type="number" name="phone" value="000-000-0000"  />
+  
+     			<label for="website">Website:</label>
+     			<input type="url" name="website" value="http://"  />
+  
+ 		</fieldset><!--end user-details-->
+  
+ 		<fieldset id="user-message">
+  
+     			<label for="message">Your Message:</label>
+     			<textarea name="message" rows="0" cols="0"></textarea>
+  
+     			<input type="submit" value="Submit Message" name="submit" class="submit" /> 
+  
+ 		</fieldset>
+  		</form>
+
+	   </footer>
 	</div>
 	</body>
 </html>
