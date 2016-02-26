@@ -6,9 +6,9 @@ body {
       font-family: 'Yanone Kaffeesatz', arial, sans-serif;
       background-color: rgb(54, 57, 66);
       background-image: url("images/diamond-zag.png");
-      width:960;
-      padding: 40px;
-      margin: 10px auto;
+      width:100%;
+      padding: 4%;
+      margin: 0 auto;
       font-size: 1em;
      }
      
@@ -19,15 +19,15 @@ body {
 #index{
       background: linear-gradient(to bottom, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 57%,rgba(221,223,227,1) 99%,rgba(245,246,246,1) 100%);
       border: 1px solid #665544;
-      padding: 20px;
-      border-radius: 20px;
+      padding: 2%;
+      border-radius:2%;
       box-shadow: -5px 5px 15px 7px #000;
      } 
      
 /** Main Nav **/
 nav li {
 	 display: inline;
-	 margin: 20px;
+	 margin: 2px;
 	  }	
 ul {
 	width: 570px;
@@ -70,7 +70,7 @@ p {
 	font-style: normal;
 	}
 label {
-    font-size: 20px;
+    font-size: .2em;
     color: #666;
 }
   
@@ -78,7 +78,7 @@ fieldset { border: none; }
   
 #user-details {
     float: left;
-    width: 230px;
+    width: 23%;
 }
   
 #user-message {
@@ -210,8 +210,7 @@ h2 {
       background-color:#ecf4ff;
       text-align:center;
       vertical-align:top}
-
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
+      
 
 /** form **/
 
@@ -234,7 +233,7 @@ form {
 }
 
  form {
-    float: center center;
+    float: left;
     border: 1px solid #ddd;
     padding: 30px 40px 20px 40px;
     margin: 75px 0 0 0;
@@ -250,10 +249,7 @@ input, textarea {
     font-size: 14px;
     color: #555;
     border: 1px #ddd solid;
-	-webkit-box-shadow: 0px 0px 4px #aaa;
-	-moz-box-shadow: 0px 0px 4px #aaa;
-	box-shadow: 0px 0px 4px #aaa; 
-	-webkit-transition: background 0.3s linear;    
+	box-shadow: 0px 0px 4px #aaa;   
 }
 
 input.submit { 
@@ -263,17 +259,10 @@ input.submit {
     margin-top: 10px;
     background-color: #18a5cc;
     border: none;
-	-webkit-transition: -webkit-box-shadow 0.3s linear;
-  	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc), to(#0a85a8));
-	background:  -moz-linear-gradient(25% 75% 90deg,#0a85a8, #18a5cc);
-  	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
 
 input.submit:hover {  
-    -webkit-box-shadow: 0px 0px 20px #555;
-    -moz-box-shadow: 0px 0px 20px #aaa;
     box-shadow: 0px 0px 20px #555; 
     cursor:  pointer;
 }
