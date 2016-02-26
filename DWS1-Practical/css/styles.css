@@ -1,0 +1,136 @@
+/************************ Main Styles ************************/
+
+body {
+	width: 100%;
+    min-width: 960px;
+    max-width: 1130px;
+    margin: 0 auto;
+    font: 16px / 1.5 "PT Sans", sans-serif;
+    color: #666;
+    background: #fff;
+}
+header{
+   width: 117.7%;
+   height: 79%;
+    background-image: url("images/homebackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/** logo **/
+
+h1 {
+	width: 219px; height: 62px;
+	background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    float: center center;
+    }
+
+/** Navigation **/
+
+ul {
+    width: 117.7%;
+    padding: 1.04%;
+    margin: 1.6%;
+    border-top: .10% dashed #fff;
+    border-bottom: .10% dashed #fff;
+}
+li {
+    display: inline;
+    width: 57.3%;
+    margin-right: 1.6%;
+}
+#current-page {
+    color: #d93600;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color: #d93600;
+}
+a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+/** slogan **/
+
+#slogan {
+    width: 83.3%;
+    padding: 26.0%;
+    float: center center;
+}
+#slogan h2 {
+    font-size: 3.75em;
+    color: #ffffff;
+    float: center center;
+}
+#slogan p {
+    font-size: 2.12em;
+    color: #ffffff;
+    float: center center;
+}
+/** content **/
+	
+.promo-col {
+    width: 26.5%;
+    float: left;
+    margin: 1.04%;
+    float: left center;
+}
+.futured h2 {
+    width: 117.7%;
+    float: center center;
+    font-size: 2.12em;
+    text-align: center;
+    color: #868686;
+}
+.featured-col {
+    width: 36.5%;
+    float: left;
+    margin-left: 4.2%;
+    margin-bottom: 3.13%;
+}
+.read-more {
+    width: 20.8%;
+    float: left;
+    margin: 1.04% 3.13%;
+}
+/** icons **/
+
+#coffee {
+    background-image: url("images/ico_coffee.png");
+    background-repeat: no-repeat;
+    height: 8.33%;
+}
+#music {
+    background-image: url("images/ico_music.png");
+    background-repeat: no-repeat;
+    height: 8.33%;
+}
+#food {
+    background-image: url("images/ico_food.png");
+    background-repeat: no-repeat;
+    height: 8.33%;
+}
+#service {
+    background-image: url("images/ico_service.png");
+    background-repeat: no-repeat;
+    height: 8.33%;
+}
+/** footer **/
+
+footer {
+    font-size: 0.75em;
+    background-color: #111111;
+    text-align: center
+}
+footer {
+	clear: both;
+	background: #111111;
+	height: 8.33%;
+}
