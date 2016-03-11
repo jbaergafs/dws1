@@ -1,0 +1,128 @@
+/*****Jose Baerga styles.css file for project2*****/
+
+/****** Body styles ****/
+
+body {
+      font-family: Arial, Verdana, sans-serif;
+      background-color: rgb(54, 57, 66);
+      padding: 40px;
+      margin: 10px auto;
+      font-size: 1em;
+     }
+	
+#content {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #665544;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: -5px 5px 15px 7px #000;
+     } 
+     
+/** Main Nav **/
+#top-menu {
+	 display: inline;
+	 margin: 20px;
+	  }	
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto;
+	font-size: 1.5em;
+	text-align: center;
+	 }	 		    
+
+/*** Text Style ***/
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 4em;
+	color: #5C832F;
+	text-align: center;
+	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
+	}
+	
+h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+	color: #5C832F;
+	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
+	}
+	
+#intro p {
+	font-family: Arial, Verdana, sans-serif;
+	color: #01A2A6;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: .5em;
+	}
+p {
+	font-family: Arial, Verdana, sans-serif;
+	color: #2F2933;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	}
+	
+/** list styles **/
+
+a:link {
+	text-decoration: none;
+	color: #EC7263;
+	}
+	
+a:visited {
+	color: #57385C;
+	}
+	
+a:hover {
+	text-decoration: none;
+	color: deeppink;
+	}             
+             
+a:active {
+	color: #FFEDBC;
+	}
+	
+ol{
+	list-style-type: upper-alpha;
+	}
+
+/** sources  **/
+
+
+.sources {
+	background-color: #FF8598;
+	margin: 10px;
+	padding:10px;
+	text-align: left;
+	}    
+	
+/** image style **/
+	
+#gallery a {
+	border: 2px solid deeppink;
+	width: 300px;
+	height: 200px;
+	display: block;
+	}
+	
+#gallery a:hover {
+	border: 2px solid #000;
+	}
+	 
+/*** footer style ***/
+
+footer  {
+	color: deeppink;
+	width: 100px;
+	height: 40px;
+	margin: 10px auto;
+	font-size: .5em;
+	text-align: center;
+	}
+	
+ 
+
+
+
