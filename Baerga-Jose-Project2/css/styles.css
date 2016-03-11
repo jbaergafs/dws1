@@ -19,17 +19,20 @@ body {
      } 
      
 /** Main Nav **/
-#top-menu {
-	 display: inline;
-	 margin: 20px;
-	  }	
+.nav-menu {
+	display: inline;
+	margin: 0px 30px;
+	}
+
+	
 ul {
 	width: 570px;
 	padding: 15px;
-	margin: 0px auto;
-	font-size: 1.5em;
-	text-align: center;
-	 }	 		    
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1p solid #000;
+	text-align:center;
+	}
 
 /*** Text Style ***/
 
@@ -48,7 +51,7 @@ h2 {
 	text-shadow: 5px 3px 5px rgba(150, 150, 150, 1);
 	}
 	
-#intro p {
+#main p {
 	font-family: Arial, Verdana, sans-serif;
 	color: #01A2A6;
 	font-size: 1.5em;
@@ -102,8 +105,8 @@ ol{
 	
 #gallery a {
 	border: 2px solid deeppink;
-	width: 300px;
-	height: 200px;
+	width: 400px;
+	height: 300px;
 	display: block;
 	}
 	
